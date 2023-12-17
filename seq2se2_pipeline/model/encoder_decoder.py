@@ -30,10 +30,12 @@ class Decoder(keras.Model):
         self.batch_sz = batch_sz
         self.dec_units = dec_units
         self.embedding = keras.layers.Embedding(vocab_size, embedding_dim)
-        self.gru = keras.layers.GRU(self.dec_units,
-                                    return_sequences=True,
-                                    return_state=True,
-                                    recurrent_initializer='glorot_uniform')
+        self.gru = keras.layers.GRU(
+            self.dec_units,
+            return_sequences=True,
+            return_state=True,
+            recurrent_initializer='glorot_uniform'
+            )
         self.fc = keras.layers.Dense(vocab_size)
 
     def call(self, x, hidden):

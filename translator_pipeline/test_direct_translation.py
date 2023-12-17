@@ -27,6 +27,9 @@ def main():
     with open(file="data/lexicon/sv_en_lexicon.pkl", mode="rb") as f:
         sv_en_lexicon: dict = pl.load(file=f)
 
+    print(sv_en_lexicon["arg"])
+    quit()
+
     sentence1 = "Hej jag heta Oskar"
     sentence2 = "Mitt namn vara Oskar"
     sentence3 = "Jag ska gå till en butik"
