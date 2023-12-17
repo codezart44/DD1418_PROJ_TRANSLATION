@@ -2,8 +2,8 @@
 ## Förbättrad Direktöversättning
 ___
 Detta är en skoluppgift av:
-- Oskar Wallberg oskarew@kth.ug.se
-- Alexander Karolin akarolin@kth.ug.se
+- Oskar Wallberg oskarew@ug.kth.se
+- Alexander Karolin akarolin@ug.kth.se
 
 Instruktioner för att köra programmet:
 
